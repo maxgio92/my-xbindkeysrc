@@ -53,11 +53,11 @@ keystate_scrolllock= enable
 # ----- Audio ------
 
 # Increase volume
-"pactl set-sink-volume @DEFAULT_SINK@ +10%"
+"pactl set-sink-volume @DEFAULT_SINK@ +5%"
    XF86AudioRaiseVolume
 
 # Decrease volume
-"pactl set-sink-volume @DEFAULT_SINK@ -10%"
+"pactl set-sink-volume @DEFAULT_SINK@ -5%"
    XF86AudioLowerVolume
 
 # Mute volume
@@ -83,19 +83,19 @@ XF86AudioStop
 # ------ Video ------
 
 # Increase backlight
-"sudo brightnessctl --device='intel_backlight' set 10%+"
+"sudo brightnessctl --device='intel_backlight' set 5%+"
    XF86MonBrightnessUp
 
 # Decrease backlight
-"sudo brightnessctl --device='intel_backlight' set 10%-"
+"sudo brightnessctl --device='intel_backlight' set 5%-"
    XF86MonBrightnessDown
 
 # Increase keyboard backlight
-"sudo brightnessctl --device='smc::kbd_backlight' set 10%+"
+"sudo brightnessctl --device='smc::kbd_backlight' set 5%+"
     XF86KbdBrightnessUp
 
 # Decrease keyboard backlight
-"sudo brightnessctl --device='smc::kbd_backlight' set 10%-"
+"sudo brightnessctl --device='smc::kbd_backlight' set 5%-"
     XF86KbdBrightnessDown
 
 #"xterm -geom 50x20+20+20"
